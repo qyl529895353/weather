@@ -1,0 +1,15 @@
+tags:
+  - 获取天气信息
+summary: 获取天气信息
+parameters:
+  - name: adCode
+    in: body
+    type: string
+    description: 城市编码
+    required: true
+responses:
+  200:
+    description: 处理获取信息请求成功
+  400:
+    description: 处理获取信息请求失败
+
